@@ -1,10 +1,10 @@
 fn main() {
-  let mut number = 3;
+  let a = [10, 20, 30, 40];
 
-  while number != 0 {
-      println!("{}!", number);
-      number = number - 1;
+  let mut index = 0;
+
+  while index < 4 {
+      println!(" number : {}", a[index]);
+      index = index + 1;
   }
-
-  println!("LIFTOFF!!!");
 }
